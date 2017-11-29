@@ -1,9 +1,9 @@
-# MIXING For SASS 
+# Mixin For SASS 
 ## Author: Sumit Kumar Tiwari, Web Developer
 
 #### Download mixin file _mixin.scss and import in your main scss file and use
 
-### Media Mixing
+### Media Mixin
  eg. @include tab() {
    width: 100%;
  } 
@@ -16,7 +16,7 @@
   5. @include mini-mobile() { ... }
 
 
-### Box Mixings
+### Box Mixins
 @mixin box($display, $width: null, $height: null, $background: null) {
   display: $display;
   width: $width;
@@ -28,7 +28,7 @@
 @include box(block, $width: 100%, $height: auto, $background: red);
 
 
-### Margin And Padding Mixing
+### Margin And Padding Mixin
  
  #### use
  @include margin(20px....);
@@ -42,7 +42,7 @@
  @include border(1px solid red); 
 
 
-### Position mixing
+### Position Mixin
 
 	###use 
 	@include position(position, $top: 10px, $right: 20px, $bottom: 10px, $left: 20px);
@@ -50,14 +50,14 @@
 	@include position(position, $top: 10px, $right: 20px);
 
 
-## Linking mixing
+## Linking Mixin
 
 	### use
 	@include link($link, $visit, $hover, $active);
 
   use color place of argument and it will work for anchor
 
-## Grid mixing
+## Grid Mixin
 
 	### Use
 	simply use number of grid and pass it as argument
@@ -82,10 +82,10 @@
 	}	  
 
 	### use
-	1. Use this mixing for parent of iframe
+	1. Use this Mixin for parent of iframe
 	 @include video_parent();
 
-  	1. Use this mixing for iframe
+  	1. Use this Mixin for iframe
 	 @include video_frame();	 
 
 
