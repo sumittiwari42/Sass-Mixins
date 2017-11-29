@@ -1,5 +1,5 @@
 # MIXING For SASS 
-Author: Sumit Kumar Tiwari
+## Author: Sumit Kumar Tiwari
         Web Developer
 
 #### Download mixin file _mixin.scss and import in your main scss file and use
@@ -29,7 +29,7 @@ Author: Sumit Kumar Tiwari
 @include box(block, $width: 100%, $height: auto, $background: red);
 
 
-###Margin And Padding Mixing
+### Margin And Padding Mixing
  
  #### use
  @include margin(20px....);
@@ -37,13 +37,13 @@ Author: Sumit Kumar Tiwari
  @include padding(20px....);
 
 
-###Border Mixin
+### Border Mixin
 
- ####use
+ #### use
  @include border(1px solid red); 
 
 
-###Position mixing
+### Position mixing
 
 	###use 
 	@include position(position, $top: 10px, $right: 20px, $bottom: 10px, $left: 20px);
@@ -51,22 +51,22 @@ Author: Sumit Kumar Tiwari
 	@include position(position, $top: 10px, $right: 20px);
 
 
-##Linking mixing
+## Linking mixing
 
-	###use
+	### use
 	@include link($link, $visit, $hover, $active);
 
   use color place of argument and it will work for anchor
 
-##Grid mixing
+## Grid mixing
 
-	###Use
+	### Use
 	simply use number of grid and pass it as argument
 
 	include grid(number_of_grid);
 
 
-##video responsive 
+## video responsive 
 
 	@mixin video_parent() {
 	  position: relative;
@@ -82,7 +82,7 @@ Author: Sumit Kumar Tiwari
 	    height: 100%;
 	}	  
 
-	###use
+	### use
 	1. Use this mixing for parent of iframe
 	 @include video_parent();
 
@@ -90,7 +90,7 @@ Author: Sumit Kumar Tiwari
 	 @include video_frame();	 
 
 
-##background
+## Background Mixin
 	@mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
 	    background: {
 	        image: url($imgpath);
@@ -99,7 +99,7 @@ Author: Sumit Kumar Tiwari
 	    }
 	}	 
 
-  ###Use
+  ### Use
 
   Just pass argument
   eg: 
@@ -107,17 +107,17 @@ Author: Sumit Kumar Tiwari
   @include background(path, $position: 100% 100%);
 
 
-##Animation Mixin
+## Animation Mixin
 @mixin animation($animation_name, $animation_duration: null, $animation_delay: null, $animation_iteration_count: null);
 
-	###Use 
+	### Use 
 	@include animation(slide, $animation_duration: 2s, $animation_delay: 1s, $animation_iteration_count: 4);
 
 
 
-##Will update more mixin
+## Will update more mixin
 
-#Thank you	
+# Thank you	
 
   
 
