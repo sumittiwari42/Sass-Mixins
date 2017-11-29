@@ -1,6 +1,5 @@
 # MIXING For SASS 
-## Author: Sumit Kumar Tiwari
-        Web Developer
+## Author: Sumit Kumar Tiwari, Web Developer
 
 #### Download mixin file _mixin.scss and import in your main scss file and use
 
