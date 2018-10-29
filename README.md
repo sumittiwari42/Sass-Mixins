@@ -1,4 +1,4 @@
-# Mixin For SASS 
+# Sass Mixins
 ## Author: Sumit Kumar Tiwari, Web Developer
 
 #### Download mixin file _mixin.scss and import in your main scss file and use
